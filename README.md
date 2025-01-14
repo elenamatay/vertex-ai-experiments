@@ -9,11 +9,11 @@ The original tutorial uses the Vertex AI Python SDK to create a new experiment, 
 
 and then automatically logs the results of the training experiments.
 
-This adapted tutorial leverages the same API to train five simple models:
+My adapted tutorial -notebook `Experiments - Autolog 5 models' parameters and metrics` in this repo- leverages the same API to train five simple models:
 - a scikit-learn model
 - an LGBM one
 - three XGBoost models with different hyperparameters
 
-and automatically log the results to be later reviewed in Vertex AI Experiments UI.
+and automatically log the experiment's input and output results to be later reviewed in Vertex AI Experiments UI.
 
 ![Vertex AI Experiments interface](experiments.jpeg)
